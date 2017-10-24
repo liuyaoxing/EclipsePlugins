@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Encoding
+Bundle-SymbolicName: cn.com.liuyx.encoding;singleton:=true
+Bundle-Version: 1.0.0.v201708211026
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.jobs;resolution:=optional,
+ org.eclipse.core.resources;resolution:=optional,
+ org.eclipse.core.runtime;resolution:=optional,
+ org.eclipse.core.filesystem;resolution:=optional
+Bundle-Activator: cn.com.liuyx.encoding.Activator
+Bundle-ActivationPolicy: lazy

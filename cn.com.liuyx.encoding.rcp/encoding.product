@@ -80,8 +80,6 @@
       <plugin id="org.eclipse.equinox.common"/>
       <plugin id="org.eclipse.equinox.ds"/>
       <plugin id="org.eclipse.equinox.event"/>
-      <plugin id="org.eclipse.equinox.http.jetty"/>
-      <plugin id="org.eclipse.equinox.http.servlet"/>
       <plugin id="org.eclipse.equinox.p2.core"/>
       <plugin id="org.eclipse.equinox.p2.engine"/>
       <plugin id="org.eclipse.equinox.p2.metadata"/>
@@ -93,23 +91,6 @@
       <plugin id="org.eclipse.equinox.security.win32.x86" fragment="true"/>
       <plugin id="org.eclipse.equinox.util"/>
       <plugin id="org.eclipse.help"/>
-      <plugin id="org.eclipse.help.base"/>
-      <plugin id="org.eclipse.help.ui"/>
-      <plugin id="org.eclipse.jdt"/>
-      <plugin id="org.eclipse.jdt.compiler.apt" fragment="true"/>
-      <plugin id="org.eclipse.jdt.compiler.tool" fragment="true"/>
-      <plugin id="org.eclipse.jdt.core"/>
-      <plugin id="org.eclipse.jdt.core.manipulation"/>
-      <plugin id="org.eclipse.jdt.debug"/>
-      <plugin id="org.eclipse.jdt.launching"/>
-      <plugin id="org.eclipse.jdt.ui"/>
-      <plugin id="org.eclipse.jetty.continuation"/>
-      <plugin id="org.eclipse.jetty.http"/>
-      <plugin id="org.eclipse.jetty.io"/>
-      <plugin id="org.eclipse.jetty.security"/>
-      <plugin id="org.eclipse.jetty.server"/>
-      <plugin id="org.eclipse.jetty.servlet"/>
-      <plugin id="org.eclipse.jetty.util"/>
       <plugin id="org.eclipse.jface"/>
       <plugin id="org.eclipse.jface.databinding"/>
       <plugin id="org.eclipse.jface.text"/>

@@ -16,7 +16,6 @@ public class Perspective implements IPerspectiveFactory {
 		layout.setEditorAreaVisible(true);
 		{
 			IFolderLayout folderLayout = layout.createFolder("folder", IPageLayout.LEFT, 0.25f, editorArea);
-			folderLayout.addView("org.eclipse.jdt.ui.PackageExplorer");
 			folderLayout.addView("org.eclipse.ui.views.ResourceNavigator");
 		}
 		IFolderLayout folder = layout.createFolder("messages", IPageLayout.BOTTOM, 0.5f, editorArea);
